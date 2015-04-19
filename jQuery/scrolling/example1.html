@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery Demo</title>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script>
+	  $(function(){
+	  	$( "#element" ).click(function() {
+			  $( "#element2" ).animate({
+			    opacity: .25
+			  }, 1000, function() {
+			    console.log('animation complete');
+			  });
+			});
+	  });
+  </script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="csshake.min.css">
+</head>
+<body>
+	<button id="element" class="ui-state-default ui-corner-all">Run Effect</button>
+	<div id="element2" id="obj1" style="height: 400px; width: 400px; background-color: red;">
+	</div>
+</body>
+</html>
