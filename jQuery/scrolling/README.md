@@ -83,9 +83,9 @@ This should be all we need to perform the animation.
 
 Create a basic webpage using `template.html` that:
 
-* Has a number of elements spaced throughout it for scrolling to (<div>s, whatever)
-* Has <a> tags that link to the elements
-* Prevents the default action on <a> clicks
+* Has a number of elements spaced throughout it for scrolling to (`<div>`s, whatever)
+* Has `<a>` tags that link to the elements
+* Prevents the default action on `<a>` clicks
 * Performs a jQuery scroll animation to the target element
 
 To perform a scroll using .animate() we need to identify the arguments of the function we'll need.
