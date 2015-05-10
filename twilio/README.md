@@ -73,3 +73,8 @@ The `example.py` shows how this is done, using `import os` then `os.getenv('VARI
 
 Fill in the information in the message-sending function, then execute the file to send yourself a text.
 
+## Challenge
+
+Using the Twilio documentation, learn how to check received SMS messages.
+
+Create a program that can execute two different commands based on the message it receives.
